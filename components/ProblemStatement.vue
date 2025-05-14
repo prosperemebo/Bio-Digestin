@@ -1,7 +1,9 @@
 <template>
-  <section class="px-5 pt-24 3xl:pt-44 pb-9 center-content">
+  <section class="px-5 pt-24 3xl:pt-44 pb-9 center-content relative">
     <div class="mb-9 lg:text-right lg:max-w-[40rem] lg:ml-auto">
-      <h2 class="text-xl mb-2 font-bold uppercase text-title font-display lg:text-5xl">
+      <h2
+        class="text-xl mb-2 font-bold uppercase text-title font-display lg:text-5xl"
+      >
         {{ headline }}
       </h2>
       <div v-html="subHeadline" class="italic font-semibold text-title"></div>
@@ -23,6 +25,14 @@
         </li>
       </ul>
       <div v-html="description" class="col-span-2 lg:text-right"></div>
+    </div>
+
+    <!-- Backdrop -->
+    <div class="absolute top-0 -right-1/2 lg:-right-1/4 pointer-events-none w-full h-full opacity-30">
+      <NuxtImg
+        src="/images/section-backdrop.png"
+        class="h-full w-full object-contain object-right-top"
+      />
     </div>
   </section>
 </template>
