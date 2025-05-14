@@ -34,7 +34,7 @@
 }
 
 .center-content {
-  @apply xl:max-w-[78%] xl:mx-auto;
+  @apply px-5 xl:max-w-[78%] xl:mx-auto;
 }
 
 @media (min-width: 106.25em) {

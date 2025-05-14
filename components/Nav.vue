@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="pt-9 px-5 xl:max-w-[78%] xl:mx-auto flex items-center justify-between"
+    class="pt-9 center-content flex items-center justify-between"
   >
     <figure>
       <NuxtImg

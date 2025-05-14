@@ -1,5 +1,5 @@
 <template>
-  <section class="px-5 pt-24 3xl:pt-44 pb-9 center-content relative">
+  <section class="pt-24 3xl:pt-44 pb-9 center-content relative">
     <div class="mb-9 lg:text-right lg:max-w-[40rem] lg:ml-auto">
       <h2
         class="text-xl mb-2 font-bold uppercase text-title font-display lg:text-5xl"

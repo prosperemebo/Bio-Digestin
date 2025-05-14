@@ -9,6 +9,7 @@ module.exports = {
         accent: '#B2D7D7',
         body: '#003B39',
         title: '#015F5D',
+        white: '#FFFDF8'
       },
       screens: {
         '3xl': '1700px',
