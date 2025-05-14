@@ -11,8 +11,13 @@
     :buttonLink="data?.bio_digestin_hero_section.button_link"
     :logo="data?.header_section.header_product_logo"
   />
-  <main class="bg-accent">
-
+  <main class="bg-accent -mt-28 3xl:mt-32">
+    <ProblemStatement
+      :headline="data?.problem_statement_section.headline"
+      :subHeadline="data?.problem_statement_section.subheadline"
+      :description="data?.problem_statement_section.description"
+      :symptomsRiskFactors="data?.problem_statement_section.symptoms_risk_factors"
+    />
   </main>
 </template>
 

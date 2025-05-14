@@ -7,7 +7,7 @@
       :logo="logo"
     />
     <div
-      class="pt-12 px-5 xl:px-0 h-[45rem] flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center"
+      class="pt-12 px-5 xl:px-0 3xl:h-[45rem] flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center"
     >
       <div class="lg:w-1/2 textbox-margin flex flex-col justify-end">
         <h1
@@ -22,7 +22,7 @@
 
         <NuxtLink
           :to="buttonLink"
-          class="primary-btn self-end absolute top-2/3 z-10 md:static"
+          class="primary-btn self-end absolute top-[25rem] z-10 md:static"
         >
           {{ buttonText }}
         </NuxtLink>
@@ -39,7 +39,7 @@
       </div>
       <NuxtImg
         :src="heroImage"
-        class="w-11/12 md:w-2/3 lg:w-1/2 object-contain object-left-top -translate-x-5 lg:translate-y-36"
+        class="w-11/12 xl:max-h-dvh xl:min-h-[45rem] md:w-2/3 lg:w-1/2 object-contain object-left-top -translate-x-5 3xl:translate-y-36"
         height="345"
         width="105"
         :placeholder="[38, 12]"
