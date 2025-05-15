@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/tailwindcss',
     'nuxt-viewport',
+    '@nuxt/icon',
   ],
   css: ['~/assets/css/main.css'],
   i18n: {

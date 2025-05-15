@@ -50,7 +50,6 @@ import type { HowItWorksStep } from "~/types";
 defineProps<{
   heading: string;
   subheadline: string;
-  description: string;
   howItWorks: HowItWorksStep[];
 }>();
 

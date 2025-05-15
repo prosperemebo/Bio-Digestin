@@ -37,7 +37,19 @@
       :subheadline="data?.how_bio_digestin_works_section.subheadline"
       :howItWorks="data?.how_bio_digestin_works_section.how_it_works"
     />
+    <WhyChooseProduct
+      :headline="data?.why_choose_product_section.headline"
+      :subheadline="data?.why_choose_product_section.subheadline"
+      :whyChooseProduct="data?.why_choose_product_section.why_choose_product"
+    />
   </main>
+  <Footer
+    :inquiresHeading="data?.footer_section.first_heading"
+    :contactHeading="data?.footer_section.second_heading"
+    :termsOfUse="data?.footer_section.terms_of_service"
+    :privacyPolicy="data?.footer_section.privacy_policy"
+    :imprint="data?.footer_section.imprint"
+  />
 </template>
 
 <script setup lang="ts">

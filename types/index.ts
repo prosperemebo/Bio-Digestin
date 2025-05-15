@@ -133,9 +133,9 @@ export interface FooterSection {
 }
 
 export interface FooterLink {
-  imprint_link?: string; // For imprint
-  privacy_link?: string; // For privacy
-  terms_link?: string; // For terms
+  imprint_link?: string;
+  privacy_link?: string;
+  terms_link?: string;
   imprint_button_text?: string;
   privacy_button_text?: string;
   terms_button_text?: string;
