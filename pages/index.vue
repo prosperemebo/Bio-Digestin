@@ -43,6 +43,26 @@
       :whyChooseProduct="data?.why_choose_product_section.why_choose_product"
     />
   </main>
+  <SignUpForm
+    :heading="data?.signup_form_section.heading"
+    :cityLabel="data?.signup_form_section.city_label"
+    :emailLabel="data?.signup_form_section.email_label"
+    :description="data?.signup_form_section.description"
+    :streetLabel="data?.signup_form_section.street_label"
+    :street2Label="data?.signup_form_section.street2_label"
+    :postcodeLabel="data?.signup_form_section.postcode_label"
+    :lastNameLabel="data?.signup_form_section.last_name_label"
+    :disclaimerText="data?.signup_form_section.disclaimer_text"
+    :firstNameLabel="data?.signup_form_section.first_name_label"
+    :phoneNumberLabel="data?.signup_form_section.phone_number_label"
+    :submitButtonText="data?.signup_form_section.submit_button_text"
+    :termsCheckboxLabel="data?.signup_form_section.terms_checkbox_label"
+    :withdrawalButtonText="data?.signup_form_section.withdrawal_button_text"
+    :withdrawalButtonLink="data?.signup_form_section.withdrawal_button_link"
+    :newsletterCheckboxLabel="data?.signup_form_section.newsletter_checkbox_label"
+    :promotionalCheckboxLabel="data?.signup_form_section.promotional_checkbox_label"
+    :subscriptionCheckboxLabel="data?.signup_form_section.subscription_checkbox_label"
+  />
   <Footer
     :inquiresHeading="data?.footer_section.first_heading"
     :contactHeading="data?.footer_section.second_heading"
