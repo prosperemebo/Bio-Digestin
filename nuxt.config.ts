@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-viewport',
     '@nuxt/icon',
+    '@nuxtjs/seo',
   ],
   css: ['~/assets/css/main.css'],
   i18n: {

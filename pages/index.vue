@@ -44,6 +44,7 @@
     />
   </main>
   <SignUpForm
+    :id="data?.bio_digestin_hero_section.button_link.replace('#', '')"
     :heading="data?.signup_form_section.heading"
     :cityLabel="data?.signup_form_section.city_label"
     :emailLabel="data?.signup_form_section.email_label"
@@ -75,6 +76,7 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
 import type { ApiResponse } from "@/types";
+import { usePageSeo } from "~/composables/pageSeo";
 
 const i18n = useI18n();
 const config = useRuntimeConfig();
@@ -90,4 +92,6 @@ const { data, pending, error } = await useAsyncData(
   () => $fetch<ApiResponse>(apiUrl.value as string),
   { transform: (response: ApiResponse) => response["data"] }
 );
+
+usePageSeo(data.value);
 </script>
