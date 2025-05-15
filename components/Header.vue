@@ -42,6 +42,7 @@
         :src="baseImageUrl + desktopImage"
         class="w-11/12 xl:max-h-dvh xl:min-h-[45rem] md:w-2/3 lg:w-1/2 object-contain object-left-top -translate-x-5 3xl:translate-y-36"
         :alt="headline"
+        :placeholder="[200, 230]"
         preload
       />
     </div>

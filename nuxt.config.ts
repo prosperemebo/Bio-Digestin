@@ -8,26 +8,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/icon',
     '@nuxtjs/seo',
-    [
-      'nuxt-viewport',
-      {
-        breakpoints: {
-          xs: 320,
-          sm: 640,
-          md: 768,
-          lg: 1024,
-          xl: 1280,
-          '2xl': 1536,
-          '3xl': 1700,
-        },
-        defaultBreakpoints: {
-          desktop: 'lg',
-          mobile: 'xs',
-          tablet: 'md',
-        },
-        fallbackBreakpoint: 'lg',
-      },
-    ],
   ],
   css: ['~/assets/css/main.css'],
   i18n: {
