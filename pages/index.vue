@@ -16,13 +16,21 @@
       :headline="data?.problem_statement_section.headline"
       :subHeadline="data?.problem_statement_section.subheadline"
       :description="data?.problem_statement_section.description"
-      :symptomsRiskFactors="data?.problem_statement_section.symptoms_risk_factors"
+      :symptomsRiskFactors="
+        data?.problem_statement_section.symptoms_risk_factors
+      "
     />
-    <OriginTrustBadge 
+    <OriginTrustBadge
       :heading="data?.origin_trust_badge_section.heading"
       :bodyText="data?.origin_trust_badge_section.body_text"
       :flagImage="data?.origin_trust_badge_section.flag_image"
       :signatureImage="data?.origin_trust_badge_section.signature_image"
+    />
+    <DailySupportBenefit
+      :headline="data?.daily_support_benefit_section.headline"
+      :subheadline="data?.daily_support_benefit_section.subheadline"
+      :description="data?.daily_support_benefit_section.description"
+      :dailyBenefits="data?.daily_support_benefit_section.daily_benefits"
     />
     <HowItWorks
       :heading="data?.how_bio_digestin_works_section.headline"
