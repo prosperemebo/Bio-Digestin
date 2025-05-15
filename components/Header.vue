@@ -38,7 +38,7 @@
         </div>
       </div>
       <NuxtImg
-        :src="heroImage"
+        :src="baseImageUrl + desktopImage"
         class="w-11/12 xl:max-h-dvh xl:min-h-[45rem] md:w-2/3 lg:w-1/2 object-contain object-left-top -translate-x-5 3xl:translate-y-36"
         height="345"
         width="105"
@@ -52,11 +52,10 @@
 <script setup lang="ts">
 import type { LinkText } from '~/types';
 
-const responsiveViewport = useResponsiveView();
 const config = useRuntimeConfig();
 const baseImageUrl = config.public.IMAGE_BASE_URL;
 
-const props = defineProps<{
+defineProps<{
   startNow: LinkText;
   ingredients: LinkText;
   testimonials: LinkText;
@@ -68,13 +67,6 @@ const props = defineProps<{
   buttonLink: string;
   logo: string;
 }>();
-
-const heroImage = computed(() => {
-  return (
-    baseImageUrl +
-    (responsiveViewport.isMobileView ? props.mobileImage : props.desktopImage)
-  );
-});
 </script>
 
 <style>

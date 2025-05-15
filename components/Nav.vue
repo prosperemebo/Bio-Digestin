@@ -30,10 +30,10 @@
       </li>
       <li>
         <NuxtLink
-          :to="testimonials.link"
+          :to="startNow.link"
           class="text-primary font-bold text-sm lg:text-base uppercase py-1 px-2 border-2 border-primary rounded-full bg-secondary bg-opacity-30 hover:bg-primary hover:text-light transition duration-300 ease-in-out"
         >
-          {{ testimonials.link_text }}
+          {{ startNow.link_text }}
         </NuxtLink>
       </li>
     </ul>

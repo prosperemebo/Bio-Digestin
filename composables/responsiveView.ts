@@ -23,8 +23,8 @@ export const useResponsiveView = () => {
   });
 
   return {
-    isTabletView: computed(() => isTabletView.value),
-    isMobileView: computed(() => isMobileView.value),
-    isDesktopView: computed(() => isDesktopView.value),
+    isTabletView,
+    isMobileView,
+    isDesktopView,
   };
 }
