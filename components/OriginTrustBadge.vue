@@ -16,6 +16,7 @@
           </figcaption>
           <NuxtImg
             :src="baseImageUrl + signatureImage"
+            :alt="heading"
             class="h-11 w-48 object-contain object-right"
             height="345"
             width="105"
@@ -27,6 +28,7 @@
       <figure class="-mb-12 relative z-10 md:col-span-2 md:mb-0 md:-ml-12">
         <NuxtImg
           :src="baseImageUrl + flagImage"
+          :alt="heading"
           class="w-11/12 object-contain object-left-top md:object-center md:w-[calc(100% + 3rem)]"
           height="345"
           width="105"

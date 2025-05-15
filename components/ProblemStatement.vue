@@ -28,9 +28,12 @@
     </div>
 
     <!-- Backdrop -->
-    <div class="absolute top-0 -right-1/2 lg:-right-1/4 pointer-events-none w-full h-full opacity-30">
+    <div
+      class="absolute top-0 -right-1/2 lg:-right-1/4 pointer-events-none w-full h-full opacity-30"
+    >
       <NuxtImg
         src="/images/section-backdrop.png"
+        alt="Backdrop"
         class="h-full w-full object-contain object-right-top"
       />
     </div>

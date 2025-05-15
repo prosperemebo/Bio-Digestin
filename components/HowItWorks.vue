@@ -38,6 +38,7 @@
     >
       <NuxtImg
         src="/images/section-backdrop.png"
+        alt="Backdrop"
         class="h-full w-full object-contain object-right-top"
       />
     </div>

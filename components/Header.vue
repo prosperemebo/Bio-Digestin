@@ -33,6 +33,7 @@
         >
           <NuxtImg
             src="/images/hero-backdrop.png"
+            alt="Backdrop"
             class="h-full w-full object-contain object-right-top"
           />
         </div>
@@ -43,6 +44,7 @@
         height="345"
         width="105"
         :placeholder="[38, 12]"
+        :alt="headline"
         preload
       />
     </div>
