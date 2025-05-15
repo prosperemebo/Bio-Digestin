@@ -1,5 +1,5 @@
 <template>
-  <section class="center-content py-9 relative">
+  <section class="center-content py-9 xl:py-20 relative">
     <div class="mb-4 md:grid md:grid-cols-3 md:gap-4 relative z-10">
       <h2
         class="text-4xl font-display font-bold uppercase text-title mb-4 md:col-span-2 md:mr-9"

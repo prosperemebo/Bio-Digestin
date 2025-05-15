@@ -1,5 +1,5 @@
 <template>
-  <section class="center-content py-9">
+  <section class="center-content py-9 xl:py-20">
     <div class="mb-4 lg:text-right lg:max-w-[40rem] lg:ml-auto">
       <h2
         class="text-xl mb-2 font-bold uppercase text-title font-display lg:text-5xl"
@@ -13,7 +13,7 @@
       <li
         v-for="(dailyBenefit, index) in dailyBenefits"
         :key="index"
-        class="px-4 py-5 flex-1 bg-light flex items-center gap-4 rounded-lg shadow-lg md:flex-col md:justify-center"
+        class="px-4 py-5 flex-1 bg-light flex items-center gap-4 rounded-lg shadow-lg md:flex-col md:justify-center md:text-center"
       >
         <NuxtImg
           :src="baseImageUrl + dailyBenefit.image"
@@ -26,7 +26,7 @@
           >
             {{ dailyBenefit.name }}
           </h3>
-          <p>{{ dailyBenefit.name }}</p>
+          <p>{{ dailyBenefit.description }}</p>
         </div>
       </li>
     </ul>
