@@ -24,6 +24,11 @@
       :flagImage="data?.origin_trust_badge_section.flag_image"
       :signatureImage="data?.origin_trust_badge_section.signature_image"
     />
+    <HowItWorks
+      :heading="data?.how_bio_digestin_works_section.headline"
+      :subheadline="data?.how_bio_digestin_works_section.subheadline"
+      :howItWorks="data?.how_bio_digestin_works_section.how_it_works"
+    />
   </main>
 </template>
 

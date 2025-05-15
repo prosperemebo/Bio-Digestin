@@ -9,7 +9,8 @@ module.exports = {
         accent: '#B2D7D7',
         body: '#003B39',
         title: '#015F5D',
-        white: '#FFFDF8'
+        white: '#FFFDF8',
+        'stroke-hover': '#80D3D2'
       },
       screens: {
         '3xl': '1700px',
